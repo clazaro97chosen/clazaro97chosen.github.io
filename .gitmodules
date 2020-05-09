@@ -1,6 +1,0 @@
-[submodule "output"]
-	path = output
-	url = https://github.com/clazaro97chosen/clazaro97chosen.github.io
-[submodule "pelican-aegis-jupyter-theme"]
-	path = pelican-aegis-jupyter-theme
-	url = https://github.com/clazaro97chosen/pelican-aegis-jupyter-theme
