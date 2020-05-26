@@ -817,7 +817,7 @@ div.output_area .rendered_html table {
 }
 .cc-profile-image a:before {
     content: "";
-    border: 15px solid #175597;
+    border: 15px solid #242e28 !important;
     border-radius: 50%;
     height: 200px;
     width: 200px;
