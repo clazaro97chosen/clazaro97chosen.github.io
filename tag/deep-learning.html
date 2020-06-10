@@ -12,23 +12,23 @@
 
 
     <meta name="description"
-        content="    Search results
+        content="    Tag: | A view of ideas from my laptop to your device | by Cristian Lazaro
 " />
 
-        <meta property="og:type" content="article" />
+    <meta property="og:type" content="article" />
     <meta name="twitter:card" content="summary" />
 
-    <meta property="og:title" content="Search | CristianTL"/>
-    <meta name="twitter:title" content="Search | CristianTL">
-    <meta property="og:url" content="https://clazaro97chosen.github.io/search.html" />
-    <meta property="og:description" content="Search results for CristianTL blog" />
-    <meta name="twitter:description" content="Search results for CristianTL blog">
-    <meta property="og:site_name" content="CristianTL" />
-    <meta property="og:article:author" content="CRISTIAN LAZARO" />
-        <meta property="og:image" content="/theme/img/logo_icon_background.png" />
-        <meta name="twitter:image" content="/theme/img/logo_icon_background.png" >
+<meta property="og:title" content="Tag | CristianTL"/>
+<meta name="twitter:title" content="Tag | CristianTL">
+<meta property="og:url" content="https://clazaro97chosen.github.io/tags" />
+<meta property="og:description" content="Tag: deep-learning in the CristianTL" />
+<meta name="twitter:description" content="Tag: deep-learning in the CristianTL">
+<meta property="og:site_name" content="CristianTL" />
+<meta property="og:article:author" content="CRISTIAN LAZARO" />
+<meta property="og:image" content="/theme/img/logo_icon_background.png" />
+<meta name="twitter:image" content="/theme/img/logo_icon_background.png" >
 
-    <title>    Search · CristianTL
+    <title>    Tag: | CristianTL
 </title>
 
     <link rel="stylesheet" type="text/css" href="https://clazaro97chosen.github.io/theme/libs/bootstrap-4.2.1/dist/css/bootstrap.min.css">
@@ -133,12 +133,21 @@ tex2jax: { inlineMath: [["$","$"],["\\(","\\)"]] },
     </div>
     <!--wrap content -->
     <div id="wrap">
-<div id="post-container" class="container post index">
-    <article style="margin-bottom: 70px;">
-        <div class="h2 mt-3 title text-center mb-5 pop-over">Search</div>
-        <hr>
-        <div class="span8 offset2 pop-over">
-            <div id="tipue_search_content"><div id="tipue_search_loading"></div></div>
+<div id="post-container" class="container post index list">
+    <article>
+        <div class="container list post">
+            <article>
+                <div class="h2 mt-3 title text-center mb-5 pop-over">Tag: deep-learning</div>
+                <hr>
+                <ul class="double-list pop-over">
+                    <li>
+                        <a href='/popular-activation-functions-for-deep-learning'>
+                            <h2 class="tag-title">Popular Activation Functions for Deep Learning (IN PROGRESS)</h2>
+                            <span>09.06.2020</span>
+                        </a>
+                    </li>
+                </ul>
+            </article>
         </div>
     </article>
 </div>
@@ -208,22 +217,11 @@ tex2jax: { inlineMath: [["$","$"],["\\(","\\)"]] },
 
 
     <script type="text/javascript" src="https://clazaro97chosen.github.io/theme/js/custom.js"></script>
-
-    <script type="text/javascript" src="https://clazaro97chosen.github.io/theme/tipuesearch/tipuesearch_set.js"></script>
-    <script type="text/javascript" src="https://clazaro97chosen.github.io/theme/tipuesearch/tipuesearch.min.js"></script>
-
-        <script src="https://clazaro97chosen.github.io/tipuesearch_content.js"></script>
-
     <script>
-        $(document).ready(function() {
-             $('#tipue_search_input').tipuesearch({
-                     'mode' : 'json',
-                 'show': 10,
-                 'newWindow': false,
-             });
-        });
+        function validateForm(query) {
+            return (query.length > 0);
+        }
     </script>
-
 </body>
 
 </html>
