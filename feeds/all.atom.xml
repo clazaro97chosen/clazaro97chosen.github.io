@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CristianTL</title><link href="https://clazaro97chosen.github.io/" rel="alternate"></link><link href="https://clazaro97chosen.github.io/feeds/all.atom.xml" rel="self"></link><id>https://clazaro97chosen.github.io/</id><updated>2020-06-09T00:00:00-07:00</updated><subtitle>A view of ideas from my laptop to your device</subtitle><entry><title>Popular Activation Functions for Deep Learning (IN PROGRESS)</title><link href="https://clazaro97chosen.github.io/popular-activation-functions-for-deep-learning" rel="alternate"></link><published>2020-06-09T00:00:00-07:00</published><updated>2020-06-09T00:00:00-07:00</updated><author><name>CRISTIAN LAZARO</name></author><id>tag:clazaro97chosen.github.io,2020-06-09:/popular-activation-functions-for-deep-learning</id><summary type="html"></summary><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CristianTL</title><link href="https://clazaro97chosen.github.io/" rel="alternate"></link><link href="https://clazaro97chosen.github.io/feeds/all.atom.xml" rel="self"></link><id>https://clazaro97chosen.github.io/</id><updated>2020-06-09T00:00:00-07:00</updated><subtitle>A view of ideas from my laptop to your device</subtitle><entry><title>Popular Activation Functions for Deep Learning - IN PROGRESS</title><link href="https://clazaro97chosen.github.io/popular-activation-functions-for-deep-learning" rel="alternate"></link><published>2020-06-09T00:00:00-07:00</published><updated>2020-06-09T00:00:00-07:00</updated><author><name>CRISTIAN LAZARO</name></author><id>tag:clazaro97chosen.github.io,2020-06-09:/popular-activation-functions-for-deep-learning</id><summary type="html"></summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1171,6 +1171,42 @@ Guarantee faster computation since it does not compute exponentials and division
 
 
 
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;# Use an official Python runtime as an image&lt;/span&gt;
+&lt;span class="k"&gt;FROM&lt;/span&gt; &lt;span class="s"&gt;python:3.6&lt;/span&gt;
+
+&lt;span class="c"&gt;# The EXPOSE instruction indicates the ports on which a container &lt;/span&gt;
+&lt;span class="c"&gt;# will listen for connections&lt;/span&gt;
+&lt;span class="c"&gt;# Since Flask apps listen to port 5000  by default, we expose it&lt;/span&gt;
+&lt;span class="k"&gt;EXPOSE&lt;/span&gt;&lt;span class="s"&gt; 5000&lt;/span&gt;
+
+&lt;span class="sb"&gt;`&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hello&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"hello world"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class="highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
